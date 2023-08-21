@@ -1,0 +1,7 @@
+Req: pygame, pip3 install pygame
+BG: https://www.pexels.com/photo/photo-of-galaxy-207529/
+Other game assets: https://craftpix.net/freebies/free-pixel-art-enemy-spaceship-2d-sprites
+
+Handling Collision
+Characters
+Sound Effects 
