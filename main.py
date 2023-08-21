@@ -8,9 +8,6 @@ WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("SpaceWars || my Pygame Hello World")
 BORDER = pygame.Rect(WIDTH//2 - 5, 0, 10, HEIGHT) # border in the middle
 
-####################################################################################################
-# RED Ywelli Green #
-####################################################################################################
 # Settings
 FPS = 60
 VEL = 5 # Velocity of players
@@ -33,16 +30,13 @@ YELLOW = (255, 255, 0)
 
 
 # SPACESHIP size
-SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 80, 35 # 50, 40    1.25x
+SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 80, 35
 
 # Loading spaceship images, and fixing their sizes
-#spaceship_yellow
 YELLOW_SPACESHIP_IMAGE = pygame.image.load(os.path.join('Assets', 'Ship44.png')) # os path join to ensure it works for different OSs
 YELLOW_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(YELLOW_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, 40)), 0)
 
-RED_SPACESHIP_IMAGE = pygame.image.load(os.path.join('Assets', 'Ship33.png')) #spaceship_red
-# RED_ee = pygame.transform.rotate(RED_SPACESHIP_IMAGE, 180)
-# RED_SPACESHIP = pygame.transform.scale(RED_ee, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT))
+RED_SPACESHIP_IMAGE = pygame.image.load(os.path.join('Assets', 'Ship33.png'))
 RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(RED_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 180)
 RED_SPACESHIP = pygame.transform.flip(RED_SPACESHIP, False, True)
 
