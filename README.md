@@ -26,3 +26,6 @@ To install it use: `pip install pygame` or `pip3 install pygame`
 Background source: https://www.pexels.com/photo/photo-of-galaxy-207529
 
 Other game-assets: https://craftpix.net/freebies/free-pixel-art-enemy-spaceship-2d-sprites
+
+
+**Note:** this project was heavily inspired by this youtube [video](https://www.youtube.com/watch?v=jO6qQDNa2UY&ab_channel=TechWithTim).
